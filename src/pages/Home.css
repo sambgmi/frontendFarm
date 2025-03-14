@@ -1,0 +1,26 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('/farm-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#products-section {
+    width: 100%;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+    scroll-margin-top: 80px;
+    scroll-behavior: smooth;
+    opacity: 0; /* Start invisible */
+}
+
+#products-section.aos-animate {
+    opacity: 1; /* Become visible when animated */
+    transition: opacity 0.8s ease-out;
+}

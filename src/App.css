@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+
+}
+
+.app-container {
+  flex: 1;
+  background: transparent;
+}
+
+body, html {
+ 
+  background: transparent;
+}
+
+#root {
+  background: transparent;
+}

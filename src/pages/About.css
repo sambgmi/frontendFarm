@@ -1,0 +1,47 @@
+.about-container {
+    min-height: 100vh;
+    padding: 100px 20px 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('/farm-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-section {
+    margin: 30px 0;
+}
+
+.about-section h2 {
+    color: #00a152;
+    margin-bottom: 15px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.about-section li:last-child {
+    border-bottom: none;
+}
